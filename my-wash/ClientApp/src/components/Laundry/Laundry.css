@@ -1,0 +1,38 @@
+.active {
+    color: red;
+}
+
+.free {
+    color: green;
+}
+
+.block {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-title {
+    font-weight: bold;
+}
+
+.wrappper{
+    display: flex;
+}
+
+.container{
+    display: flex !important;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 900px){
+    .wrappper{
+        display: flex;
+        flex-direction: column;
+    }
+}
