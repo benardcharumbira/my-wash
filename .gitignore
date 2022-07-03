@@ -47,3 +47,4 @@
 *.cmd
 .tmp_versions/
 modules.order
+*.xml
